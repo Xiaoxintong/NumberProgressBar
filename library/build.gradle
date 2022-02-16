@@ -1,14 +1,15 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+
+group='cn.xxt'
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.2"
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
 
     defaultConfig {
-        minSdkVersion 9
-        targetSdkVersion 25
-        versionCode 5
-        versionName "1.4"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
     }
     buildTypes {
         release {
@@ -18,5 +19,3 @@ android {
     }
     return true
 }
-
-apply from: './gradle-mvn-push.gradle'

@@ -188,7 +188,7 @@ public class NumberProgressBar extends View {
         mUnreachedBarHeight = attributes.getDimension(R.styleable.NumberProgressBar_progress_unreached_bar_height, default_unreached_bar_height);
         mOffset = attributes.getDimension(R.styleable.NumberProgressBar_progress_text_offset, default_progress_text_offset);
 
-        int textVisible = attributes.getInt(R.styleable.NumberProgressBar_progress_text_visibility, PROGRESS_TEXT_VISIBLE);
+        int textVisible = attributes.getInt(R.styleable.NumberProgressBar_progress_text_visibility_xxt, PROGRESS_TEXT_VISIBLE);
         if (textVisible != PROGRESS_TEXT_VISIBLE) {
             mIfDrawText = false;
         }

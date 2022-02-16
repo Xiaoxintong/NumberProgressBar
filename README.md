@@ -131,7 +131,7 @@ for example, the default style:
 	        custom:progress_text_size="10sp"
 	        custom:progress_text_color="#3498DB"
 	        custom:progress_text_offset="1dp"
-	        custom:progress_text_visibility="visible"
+	        custom:progress_text_visibility_xxt="visible"
 	        
 	        custom:progress_max="100"
 	        custom:progress_current="80"
